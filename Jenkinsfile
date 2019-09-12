@@ -36,5 +36,5 @@ node {
 
     }
     
-    sh 'docker run -d -p "8000:8000" "aspathak14/hellonode:latest"'
+    sh 'docker run -d -p "8000:8000" "aspathak/hellonode:latest"'
 }
