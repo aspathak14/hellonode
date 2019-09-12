@@ -12,7 +12,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("aspathak14/hellonode")
+        app = docker.build("aspathak/hellonode")
     }
 
     stage('Test image') {
